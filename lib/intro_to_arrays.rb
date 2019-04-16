@@ -5,3 +5,8 @@ end
 def array_with_two_elements
   @my_new_array = ["London", "New York"]
 end 
+
+def first_element(array)
+  @my_new_array[0]
+end
+  
