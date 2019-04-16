@@ -1,19 +1,19 @@
 def instantiate_new_array
-  @my_new_array = []
-end
-
-def array_with_two_elements
   array.new
 end
 
+def array_with_two_elements
+  ["London", "New York"]
+end
+
 def first_element(array)
-  @my_new_array.first
+  array[0]
 end
 
 def third_element(array)
-  @my_new_array[2]
+  array[2]
 end
 
 def last_element(array)
-  @my_new_array[-1]
+  array[-1]
 end
