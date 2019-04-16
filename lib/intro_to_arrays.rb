@@ -3,7 +3,7 @@ def instantiate_new_array
 end
 
 def array_with_two_elements
-  @array = ["London", "New York"]
+  array = ["London", "New York"]
   return array
 end
 
@@ -28,5 +28,5 @@ def last_element_with_array_methods(array)
 end
 
 def last_element_with_array_methods(array)
-  array.count
+  array.size
 end
