@@ -3,7 +3,7 @@ def instantiate_new_array
 end
 
 def array_with_two_elements
-  array = ["London", "New York"]
+  @array = ["London", "New York"]
   return array
 end
 
