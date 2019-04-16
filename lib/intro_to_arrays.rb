@@ -13,3 +13,6 @@ end
 def third_element(array)
   @my_new_array[2]
 end
+
+def last_element(array)
+  @my_new_array[-1]
