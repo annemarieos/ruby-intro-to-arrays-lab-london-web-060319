@@ -4,6 +4,7 @@ end
 
 def array_with_two_elements
   array = ["London", "New York"]
+  return array
 end
 
 def first_element(array)
