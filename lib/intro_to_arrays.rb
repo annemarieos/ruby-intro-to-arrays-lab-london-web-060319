@@ -3,7 +3,7 @@ def instantiate_new_array
 end
 
 def array_with_two_elements
-  @my_new_array = ["London", "New York"]
+  array.new
 end
 
 def first_element(array)
@@ -16,4 +16,4 @@ end
 
 def last_element(array)
   @my_new_array[-1]
-end 
+end
