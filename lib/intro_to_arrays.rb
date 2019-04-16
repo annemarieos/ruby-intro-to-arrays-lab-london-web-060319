@@ -9,3 +9,6 @@ end
 def first_element(array)
   @my_new_array.first
 end
+
+def third_element(array)
+  @my_new_array[2]
